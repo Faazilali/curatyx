@@ -1,0 +1,760 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+.parent1{
+    display:flex;
+}
+
+.nav{
+    margin-top:2rem;
+    margin-left:1rem;
+    display:grid;
+    gap:.8rem;
+}
+
+.nav a{
+    color:black;
+    text-decoration: none;   
+}
+
+.nav a:hover{
+    color:#dedede;
+}
+
+.logo{
+    margin-top:2rem;
+    margin-right:1rem;
+}
+
+.logo img{
+    width:60%;
+    float:right;
+}
+
+.content1{
+    text-align:center;
+    margin-top:3rem;
+}
+
+.content1 h1{
+    font-weight: 100;
+}
+
+.content1 p{
+    margin-top:.5rem;
+    font-size:1.2rem;
+}
+
+.content1 button{
+    margin-top:1rem;
+    background: black;
+    color: #fff;
+    border-radius: .5rem;
+    font-size:1.1rem;
+    padding:.5rem;
+    border:2px solid transparent;
+    cursor:pointer;
+    transition:0.5s ease;
+}
+
+.content1 button:hover{
+    background:rgb(255, 196, 0);
+    color:black;
+    border-color: black;
+}
+
+.img1{
+    margin-top:1.5rem;
+}
+
+.img1 img{
+    width:100%;
+    height:auto;
+}
+
+.parent3{
+    margin-top:1rem;
+    background: rgb(255, 196, 0);
+    text-align: center;
+    height:28rem;
+}
+
+.yellow1 h1{
+    font-weight: 100;
+    padding-top: 2rem;
+}
+
+.yellow1 b{
+    font-weight: 600;
+}
+
+.yellow2{
+    margin:2rem 2rem 0;
+}
+
+.yellow2 p{
+    text-align: justify;
+    font-size:1.3rem;
+}
+
+.content2{
+    margin-top:3rem;
+    text-align: center;
+}
+
+.content2 h1{
+    font-weight: 50;
+}
+
+.content2 p{
+    margin:1rem 2rem 0;
+    text-align: justify;
+}
+
+.img2{
+    text-align: center;
+    margin-top:2rem;
+}
+
+.img2 img{
+    height:18rem;
+}
+
+.img2 h2{
+    margin-top:1rem;
+}
+
+.img2 p{
+    padding:1rem 4.5rem 0;
+    text-align:center;
+}
+
+.img3{
+    text-align: center;
+    margin-top:2rem;
+}
+
+.img3 img{
+    height:18rem;
+}
+
+.img3 h2{
+    margin-top:1rem;
+}
+
+.img3 p{
+    padding:1rem 4.5rem 0;
+    text-align:center;
+}
+
+.img4{
+    text-align: center;
+    margin-top:2rem;
+}
+
+.img4 img{
+    height:18rem;
+}
+
+.img4 h2{
+    margin-top:1rem;
+}
+
+.img4 p{
+    padding:1rem 4.5rem 0;
+    text-align:center;
+}
+
+.img5{
+    text-align: center;
+    margin-top:2rem;
+}
+
+.img5 img{
+    height:18rem;
+}
+
+.img5 h2{
+    margin-top:1rem;
+}
+
+.img5 p{
+    padding:1rem 4.5rem 0;
+    text-align:center;
+}
+
+.content3{
+    margin-top:6rem;
+}
+
+.content3 h1{
+    padding:0 2rem 0;
+    font-weight: 100;
+}
+
+.content3 p{
+    padding:1rem 2rem 0;
+    font-size:1.3rem;
+}
+
+.content4{
+    margin-top:6rem;
+    text-align: center;
+}
+
+.content4 h1{
+    padding:0 2rem 0;
+    font-weight: 100;
+}
+
+.content4 .artguide{
+    width:20%;
+    margin-top:1.5rem;
+    position:relative;
+    top:2rem;
+}
+
+.img7 img{
+    height:auto;
+    width:100%;
+}
+
+.parent5{
+    margin-top:-1rem;
+    background:rgb(255, 196, 0) ;
+}
+
+.contact{
+    padding-top:6rem;
+}
+
+.contact h1{
+    text-align:center;
+}
+
+.contact h3,#a{
+    padding:1rem 2rem 0;
+    text-align: justify;
+}
+
+.parent6{
+    margin-top:2rem;
+    margin-left:2rem;
+}
+
+.email{
+    margin-top:1rem;
+}
+
+.follow{
+    margin-top:3rem;
+}
+
+.follow h1{
+    text-align:center;
+}
+
+.follow p{
+    margin-top:2rem;
+}
+
+.follow p,form{
+    padding:1rem 2rem 0;
+}
+
+.follow form input{
+    margin-top:1rem;
+    background:transparent;
+    border:2px solid black;
+    font-size: 1rem;
+    border-radius:.5rem;
+}
+
+.follow form button{
+    margin-top:1rem;
+    background: black;
+    color: #fff;
+    border-radius: .5rem;
+    font-size:.9rem;
+    padding:.5rem;
+    border:2px solid transparent;
+    cursor:pointer;
+    transition:0.5s ease;
+}
+
+.follow form button:hover{
+    background:rgb(255, 196, 0);
+    color:black;
+    border-color: black; 
+}
+
+.social-icon{
+    margin-top:3rem;
+    display:grid;
+    gap:1rem;
+    padding-bottom:2rem;
+    
+}
+
+.social-icon a{
+    font-size:1.5rem;
+    text-decoration:none;
+    color:black;
+    padding:1rem 2rem 0;
+}
+
+footer{
+    background: black;
+    color: #fff;
+    padding:1rem 2rem 0;
+    text-align: center;
+    align-content: center;
+    padding-bottom:1rem;
+}
+
+@media only screen and (min-width:780px){
+    .nav{
+        margin-top:3rem;
+        margin-left:3rem;
+        display:flex;
+        gap:1rem;
+    }
+    
+    .content1{
+        margin-top:7rem;
+    }
+    
+    .content1 h1{
+        font-size:3rem;
+    }
+    
+    .content1 p{
+        font-size:1.4rem;
+        padding-left: 2rem;
+        padding-right:2rem;
+    }
+    
+    .content1 button{
+        margin-top:.7rem;
+        font-size:1.5rem;
+    }
+    
+    .img1{
+        margin-top:2rem;
+    }
+    
+    .img1 img{
+        width:90%;
+    }
+    
+    .yellow1 h1{
+        padding-top: 3rem;
+        font-size:3rem;
+    }
+
+    .yellow2 p{
+        font-size:1.5rem;
+    }
+
+    .content2 h1{
+        font-size:3rem;
+    }
+    
+    .content2 p{
+        font-size:1.5rem;
+    }
+
+    .img2{
+        margin-top:4rem;
+    }
+    
+    .img2 img{
+        height:25rem;
+    }
+    
+    .img2 h2{
+        font-size:2rem;
+    }
+    
+    .img2 p{
+        font-size:1.5rem;
+    }
+
+    .img3{
+        margin-top:4rem;
+    }
+    
+    .img3 img{
+        height:25rem;
+    }
+    
+    .img3 h2{
+        font-size:2rem;
+    }
+    
+    .img3 p{
+        font-size:1.5rem;
+    }
+
+    .img4{
+        margin-top:4rem;
+    }
+    
+    .img4 img{
+        height:25rem;
+    }
+    
+    .img4 h2{
+        font-size:2rem;
+    }
+    
+    .img4 p{
+        font-size:1.5rem;
+    }
+
+    .img5{
+        margin-top:4rem;
+    }
+    
+    .img5 img{
+        height:25rem;
+    }
+    
+    .img5 h2{
+        font-size:2rem;
+    }
+    
+    .img5 p{
+        font-size:1.5rem;
+    }
+
+    .content3{
+        margin-top:10rem;
+    }
+    
+    .content3 h1{
+        font-size:3rem;
+    }
+    
+    .content3 p{
+        font-size:1.5rem;
+    }
+
+    .content4{
+        margin-top:10rem;
+    }
+    
+    .content4 h1{
+        font-size:3rem;
+    }
+
+    .contact{
+        padding-top:10rem;
+        text-align:center;
+    }
+
+    .parent5{
+        text-align: center;
+    }
+    
+    .contact h1{
+        font-size:3rem;
+        text-align:center;
+    }
+    
+    .contact h3{
+        font-size:2rem;
+        margin-top:2rem;
+        text-align:center;
+    }
+
+    .contact #a{
+        font-size:1.5rem;
+        text-align:center;
+    }
+    
+    
+    .inquiry p{
+        font-size:1.2rem;
+    }
+
+    .email{
+        margin-top:2rem;
+        font-size:1.2rem;
+    }
+
+    .flw{
+        display:flex;
+    }
+
+    .follow{
+        margin-top:10rem;
+        text-align:center;
+    }
+    
+    .follow h1{
+        font-size:3rem;
+    }
+
+    .follow p{
+        margin-top:2rem;
+    }
+    
+    .follow p,form{
+        font-size:2rem;
+    }
+    
+    .follow form button{
+        font-size:1.5rem;
+    }
+
+    .social-icon{
+        text-align: center;
+    }
+    
+    .social-icon a{
+        font-size:2rem;
+        text-decoration:none;
+        color:black;
+        padding:1rem 2rem 0;
+    }
+}
+
+@media only screen and (min-width:991px){
+    .nav{
+        margin-left:5rem;
+        gap:4rem;
+    }
+
+    .nav a{
+        font-size:1.8rem;
+    }
+
+    .logo{
+        margin-left:25rem;
+    }
+    
+    .parent2{
+        display:flex;
+        margin-top:8rem;
+    }
+
+    .content1{
+        margin:0;
+    }
+    
+    .content1 h1{
+        font-size:4rem;
+    }
+    
+    .content1 p{
+        font-size:1.4rem;
+        padding-left: 2rem;
+        padding-right:2rem;
+    }
+    
+    .content1 button{
+        margin-top:.7rem;
+        font-size:1.5rem;
+    }
+    
+    .img1{
+        margin-top:0;
+    }
+    
+    .img1 img{
+        width:100%;
+    }
+
+    .parent3{
+        margin-top:10rem;
+        display:flex;
+        height:28rem;
+    }
+    
+    .yellow1 h1{
+        padding-top: 6rem;
+        padding-left:10rem;
+        padding-bottom:6rem;
+        text-align:left;
+    }
+    
+    .yellow1 b{
+        font-weight: 600;
+    }
+    
+    .yellow2{
+        margin-left:15rem;
+        margin-top:10rem;
+        margin-right:5rem;
+    }
+    
+    .yellow2 p{
+        text-align: justify;
+        font-size:1.3rem;
+    }
+
+    .content2{
+        margin-top:10rem;
+    }
+
+    .content2 h1{
+        font-size:4rem;
+    }
+
+    .content2 p{
+        margin-top:3.5rem;
+        padding:0 5rem 0;
+    }
+
+    .parent4{
+        display:flex;
+        padding:0 5rem 0;
+
+    }
+    
+    .img2 img{
+        height:20rem;
+    }
+    
+    .img2 h2{
+        font-size:1.5rem;
+    }
+    
+    .img2 p{
+        font-size:1rem;
+    }
+
+    .img3 img{
+        height:20rem;
+    }
+    
+    .img3 h2{
+        font-size:1.5rem;
+    }
+    
+    .img3 p{
+        font-size:1rem;
+    }
+    .img4 img{
+        height:20rem;
+    }
+    
+    .img4 h2{
+        font-size:1.5rem;
+    }
+    
+    .img4 p{
+        font-size:1rem;
+    }
+    .img5 img{
+        height:20rem;
+    }
+    
+    .img5 h2{
+        font-size:1.5rem;
+    }
+    
+    .img5 p{
+        font-size:1rem;
+    }
+
+    .content3{
+        margin:10rem 5rem 0;
+    }
+    
+    .content3 p{
+        font-size:1.5rem;
+        line-height: 2rem;
+    }
+
+    .content4{
+        margin-top:15rem;
+
+    }
+    
+    .content4 h1{
+        margin:0 15rem 0;
+    }
+    
+    .content4 .artguide{
+        width:10%;
+        margin-top:3rem;
+        top:7rem;
+    }
+    
+    .img7 img{
+        width:70%;
+    }
+
+    .parent5{
+        margin-top:-2.9rem;
+        display:flex;
+    }
+
+    .contact{
+        padding-top:8rem;
+        padding-bottom:2rem;
+    }
+    
+    .contact h1{
+        text-align:center;
+    }
+    
+    .contact h3,#a{
+        padding:1rem 5rem 0;
+        text-align:center;
+    }
+
+    .social-icon{
+        margin-top:10rem;
+        gap:0rem;
+    }
+
+    .follow{
+        margin-top:8.3rem;
+    }
+    
+    .follow h1{
+        text-align:center;
+    }
+    
+    .follow p{
+        margin-top:2rem;
+    }
+    
+    .follow p,form{
+        padding:1rem 2rem 0;
+    }
+    
+    
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
